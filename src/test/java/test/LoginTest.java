@@ -29,9 +29,9 @@ public class LoginTest {
 	@BeforeMethod
 	public void setup() {
 		
-		System.setProperty("webdriver.chrome.driver", "/home/nikunjshah204gm/Downloads/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "chromedriver");
 		
-		System.setProperty("webdriver.gecko.driver", "/home/nikunjshah204gm/Downloads/geckodriver");
+		System.setProperty("webdriver.gecko.driver", "geckodriver");
 		
 		driver = new ChromeDriver();
 		
